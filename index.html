@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>سايبر شاركس | فريق التكنولوجيا المتقدمة</title>
+
+        <link rel="preload"
+            href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&display=swap"
+            as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet"
+                href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&display=swap"></noscript>
+        <link rel="stylesheet"
+            href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+            <link rel="stylesheet" href="./css/loader.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <style>
+        
+    </style>
+
+      
+    </head>
+    <body>
+
+        <div id="loader">
+            <div class="loader-logo">
+                <img src="./images/2.png" height="50" alt="CyberSharks Logo">
+                <span class="sharks">SHARKS</span>
+                <span style="color: white;">CYBER</span>
+            </div>
+            <div class="loader-progress">
+                <div class="loader-progress-bar"></div>
+            </div>
+            <div class="loader-message">جاري تحميل المحتوى...</div>
+        </div>
+
+        <div class="ocean-wave"></div>
+        <div class="circuit-pattern"></div>
+
+        <div class="scroll-progress">
+            <div class="scroll-progress-bar"></div>
+        </div>
+
+        <header id="header">
+            <nav>
+                <div class="nav-links">
+                    <a href="#home" class="active">الرئيسية</a>
+                    <a href="#team">الفريق</a>
+                    <a href="#projects">المشاريع</a>
+                    <a href="#contact">تواصل</a>
+                </div>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars toggle-color" ></i>
+                </button>
+                <a href="#" class="logo">
+                   <div id="logo"></div>
+                    <span class="sharks">SHARKS</span>
+                    <span class="cyber">CYBER</span>
+                    <div class="bubble bubble1"></div>
+                    <div class="bubble bubble2"></div>
+                    <div class="bubble bubble3"></div>
+                    <div class="bubble bubble4"></div>
+                </a>
+            </nav>
+        </header>
+
+        <section class="hero" id="home">
+            <div class="hero-overlay"></div>
+            <div class="underwater-light" style="top: 20%; left: 30%;"></div>
+            <div class="tech-overlay"></div>
+            <div class="data-bubbles" id="data-bubbles-container"></div>
+            <div class="shark-shadow" style="top: 30%; left: -200px;"></div>
+
+            <video autoplay muted loop class="video-background">
+                <source src="./videos/1.mp4" type="video/mp4">
+            </video>
+
+            <div class="hero-content">
+                <h1 id="typed-text"></h1>
+                <p class="hero-subtitle">
+                    نصمم روبوتات ذكية وحلولًا تقنية تدفع عجلة التطور الرقمي.
+                </p>
+                <div class="cta-container">
+                    <a href="#team" class="cta-button">
+                        <i class="fas fa-users"></i>
+                        تعرف على الفريق
+                    </a>
+                    <a href="#contact" class="cta-button secondary">
+                        <i class="fas fa-robot"></i>
+                        تواصل معنا
+                    </a>
+                </div>
+            </div>
+            <div class="floating-robot"
+                style="top: 30%; left: 10%; width: 80px; height: 80px; animation-delay: 1s;"></div>
+            <div class="floating-robot"
+                style="top: 70%; left: 80%; width: 100px; height: 100px; animation-delay: 3s;"></div>
+        </section>
+
+        <!-- Team Section -->
+        <section class="team-section" id="team">
+
+            <div class="section-header">
+                <h2 class="section-title">فريقنا المتميز</h2>
+                <p class="section-subtitle">تعرف على العقول المبدعة التي تقف
+                    وراء ابتكاراتنا التكنولوجية</p>
+            </div>
+            <div class="tech-grid"></div>
+            <div class="ocean-wave-top"></div>
+
+            <div class="swiper-container team-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="member-card">
+                            <div class="member-media">
+                                <div class="member-image"
+                                    style="background-image: url('./images/badr.JPG')"></div>
+                                <div class="member-overlay">
+                                    <h3 class="member-name">بدر بن دلة </h3>
+                                    <span class="member-role"> CAPTIN </span>
+                                </div>
+                            </div>
+                            <div class="member-details">
+                                <p class="member-bio">قائد للفريق
+                                    يتمتع بخبرة عالية في التقنية
+                                    والإدارة.</p>
+                                <div class="social-links">
+                                    <a href="#"><i
+                                            class="fab fa-github"></i></a>
+                                    <a href="#"><i
+                                            class="fab fa-linkedin"></i></a>
+                                    <a href="#"><i
+                                            class="fab fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="member-card">
+                            <div class="member-media">
+                                <div class="member-image"
+                                    style="background-image: url('./images/m-bendalla.JPG')"></div>
+                                <div class="member-overlay">
+                                    <h3 class="member-name">محمد بن دلة </h3>
+                                    <span class="member-role"> CO-CAPTIN </span>
+                                </div>
+                            </div>
+                            <div class="member-details">
+                                <p class="member-bio">قائد للفريق
+                                    يتمتع بخبرة عالية في التقنية
+                                    والإدارة.</p>
+                                <div class="social-links">
+                                    <a href="#"><i
+                                            class="fab fa-github"></i></a>
+                                    <a href="#"><i
+                                            class="fab fa-linkedin"></i></a>
+                                    <a href="#"><i
+                                            class="fab fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="member-card">
+                            <div class="member-media">
+                                <div class="member-image"
+                                    style="background-image: url('./images/walla.jpeg')"></div>
+                                <div class="member-overlay">
+                                    <h3 class="member-name">ولاء هويسة</h3>
+                                    <span class="member-role"> CO-CAPTIN </span>
+                                </div>
+                            </div>
+                            <div class="member-details">
+                                <p class="member-bio">  أشرف على تقدم الفريق وأضمن تفاعل الأعضاء. أدير أموال الفريق، وأجلب الرعاة، وأنظم الاجتماعات، وأكتب المحافظ الهندسية لتوثيق عملنا وإنجازاتنا.</p>
+                                <div class="social-links">
+                                    <a href="#"><i
+                                            class="fab fa-github"></i></a>
+                                    <a href="#"><i
+                                            class="fab fa-linkedin"></i></a>
+                                    <a href="#"><i
+                                            class="fab fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Member 2 -->
+                    <div class="swiper-slide">
+                        <div class="member-card">
+                            <div class="member-media">
+                                <div class="member-image"
+                                    style="background-image: url('./images/algeriany.jpeg')"></div>
+                                <div class="member-overlay">
+                                    <h3 class="member-name">محمود الغرياني</h3>
+                                    <span class="member-role">MENTOR OF
+                                        PROGRAMMING</span>
+                                </div>
+                            </div>
+                            <div class="member-details">
+                                <p class="member-bio">مبرمج روبوتات وتطبيقات
+                                    ويب، أمتلك خبرة واسعة في تطوير الأنظمة
+                                    الذكية وحلول الويب الحديثة باستخدام أحدث
+                                    التقنيات.</p>
+                                <div class="social-links">
+                                    <a href="#"><i
+                                            class="fab fa-facebook"></i></a>
+                                    <a href="#"><i
+                                            class="fab fa-instagram"></i></a>
+                                    <a href="#"><i
+                                            class="fab fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Member 3 -->
+                    <div class="swiper-slide">
+                        <div class="member-card">
+                            <div class="member-media">
+                                <div class="member-image"
+                                    style="background-image: url('./images/nesrin.JPG')"></div>
+                                <div class="member-overlay">
+                                    <h3 class="member-name">نسرين حنيش</h3>
+                                    <span class="member-role">BUILDING</span>
+                                </div>
+                            </div>
+                            <div class="member-details">
+                                <p class="member-bio">ناشطة في مجال الروبوتات
+                                    وصانعة محتوى، تسعى لنشر تحدي الفورست التقني
+                                    (FTC) وتعليم STEM في ليبيا.</p>
+                                <div class="social-links">
+                                    <a target="_blank"
+                                        href="https://www.instagram.com/nesrinhanish_?igsh=MThmM2x1bGloaTEyOA%3D%3D&utm_source=qr"><i
+                                            class="fab fa-instagram"></i></a>
+                                    <a href="#"><i
+                                            class="fab fa-bullhorn"></i></a>
+                                    <a href="#"><i
+                                            class="fab fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Member 4 -->
+                    <div class="swiper-slide">
+                        <div class="member-card">
+                            <div class="member-media">
+                                <div class="member-image"
+                                    style="background-image: url('./images/moad.jpeg')"></div>
+                                <div class="member-overlay">
+                                    <h3 class="member-name">معاذ فكري</h3>
+                                    <span class="member-role">BUILDING</span>
+                                </div>
+                            </div>
+                            <div class="member-details">
+                                <p class="member-bio">خبير في تصميم وتطوير
+                                    الأنظمة الروبوتية الذكية. قاد العديد من
+                                    المشاريع الناجحة في مجال الروبوتات الصناعية
+                                    والخدمية.</p>
+                                <div class="social-links">
+                                    <a href="#"><i
+                                            class="fab fa-github"></i></a>
+                                    <a href="#"><i
+                                            class="fab fa-linkedin"></i></a>
+                                    <a href="#"><i
+                                            class="fab fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="member-card">
+                            <div class="member-media">
+                                <div class="member-image"
+                                    style="background-image: url('./images/omima.jpeg')"></div>
+                                <div class="member-overlay">
+                                    <h3 class="member-name">أميمة روبه</h3>
+                                    <span class="member-role"> OUTREACH </span>
+                                </div>
+                            </div>
+                            <div class="member-details">
+                                <p class="member-bio"> ناشطة في التوعيه و تعمل على تنظيم فعاليات دولية في FTC والتواصل مع الفرق العالمية لنشر المعرفة في STEM. أسعى لتعزيز التعاون الدولي ومشاركة الخبرات لدعم مجتمع الروبوتات </p>
+                                <div class="social-links">
+                                    <a href="#"><i
+                                            class="fab fa-github"></i></a>
+                                    <a href="#"><i
+                                            class="fab fa-linkedin"></i></a>
+                                    <a href="#"><i
+                                            class="fab fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Member 5 -->
+                    <div class="swiper-slide">
+                        <div class="member-card">
+                            <div class="member-media">
+                                <div class="member-image"
+                                    style="background-image: url('./images/shehab.jpeg')"></div>
+                                <div class="member-overlay">
+                                    <h3 class="member-name">شهاب شنة</h3>
+                                    <span class="member-role">PROGRAMMER</span>
+                                </div>
+                            </div>
+                            <div class="member-details">
+                                <p class="member-bio">خبير في تصميم وتطوير
+                                    الأنظمة الروبوتية الذكية. قاد العديد من
+                                    المشاريع الناجحة في مجال الروبوتات الصناعية
+                                    والخدمية.</p>
+                                <div class="social-links">
+                                    <a href="#"><i
+                                            class="fab fa-github"></i></a>
+                                    <a href="#"><i
+                                            class="fab fa-linkedin"></i></a>
+                                    <a href="#"><i
+                                            class="fab fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Member 6 -->
+                    <div class="swiper-slide">
+                        <div class="member-card">
+                            <div class="member-media">
+                                <div class="member-image"
+                                    style="background-image: url('./images/juri.jpeg')"></div>
+                                <div class="member-overlay">
+                                    <h3 class="member-name">جوري زبيدة</h3>
+                                    <span class="member-role">BUILDING</span>
+                                </div>
+                            </div>
+                            <div class="member-details">
+                                <p class="member-bio">ناشطة في مجال الروبوتات
+                                    وصانعة محتوى، تسعى لنشر تحدي الفورست التقني
+                                    (FTC) وتعليم STEM في ليبيا.</p>
+                                <div class="social-links">
+                                    <a href="#"><i
+                                            class="fab fa-instagram"></i></a>
+                                    <a href="#"><i
+                                            class="fab fa-bullhorn"></i></a>
+                                    <a href="#"><i
+                                            class="fab fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Member 7 -->
+                    <div class="swiper-slide">
+                        <div class="member-card">
+                            <div class="member-media">
+                                <div class="member-image"
+                                    style="background-image: url('./images/naem.jpeg')"></div>
+                                <div class="member-overlay">
+                                    <h3 class="member-name">نعيم الأغا</h3>
+                                    <span class="member-role">BUILDING</span>
+                                </div>
+                            </div>
+                            <div class="member-details">
+                                <p class="member-bio">مهندس ميكانيكي متخصص في التصميم الميكانيكي،  ومهتم ببناء الروبوتات.  خبرة في ورش العمل ومهتم بتدريب المشاركين على المفاهيم الهندسية والتطبيقات العملية.</p>
+                                <div class="social-links">
+                                    <a href="#"><i
+                                            class="fab fa-github"></i></a>
+                                    <a href="#"><i
+                                            class="fab fa-linkedin"></i></a>
+                                    <a href="#"><i
+                                            class="fab fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="member-card">
+                            <div class="member-media">
+                                <div class="member-image"
+                                    style="background-image: url('./images/robeen.JPG')"></div>
+                                <div class="member-overlay">
+                                    <h3 class="member-name">روبين الجهمي</h3>
+                                    <span class="member-role">CONTENT CREATOR</span>
+                                </div>
+                            </div>
+                            <div class="member-details">
+                                <p class="member-bio"> سوشيل ميديا مانيجر وصانعة محتوى، بالإضافة إلى كونها إيديتور ومخططة فعاليات. تشارك أيضًا كعضو بناء في “روبوفيست”، وتسعى دائمًا لتوسيع نطاق الفريق وزيادة انتشاره</p>
+                                <div class="social-links">
+                                    <a href="#"><i
+                                            class="fab fa-github"></i></a>
+                                    <a href="#"><i
+                                            class="fab fa-linkedin"></i></a>
+                                    <a href="#"><i
+                                            class="fab fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="member-card">
+                            <div class="member-media">
+                                <div class="member-image"
+                                    style="background-image: url('./images/barehan.JPG')"></div>
+                                <div class="member-overlay">
+                                    <h3 class="member-name">باريهان احمد</h3>
+                                    <span class="member-role">PROGRAMMER</span>
+                                </div>
+                            </div>
+                            <div class="member-details">
+                                <p class="member-bio">متخصصة في العلاقات العامة، وصناعة المحتوى، وأتعلم البرمجة والبناء الميكانيكي لدعم الفريق. شغوفة بنشر ثقافة الروبوتات والعمل الجماعي</p>
+                                <div class="social-links">
+                                    <a href="#"><i
+                                            class="fab fa-github"></i></a>
+                                    <a href="#"><i
+                                            class="fab fa-linkedin"></i></a>
+                                    <a href="#"><i
+                                            class="fab fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+               
+            </div>
+
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </section>
+
+
+        <section class="projects-section" id="projects">
+          
+         
+            <div class="section-header">
+                <h2 class="section-title">مشاريعنا</h2>
+                <p class="section-subtitle">اكتشف بعضًا من أحدث أعمالنا في مجال
+                    التكنولوجيا</p>
+            </div>
+
+            <div class="projects-grid">
+  
+                <div class="project-card">
+                    <div class="project-image"
+                        style="background-image: url('./images/ftc.png')"></div>
+                    <div class="project-info">
+                        <h3>FTC TALK</h3>
+                        <p>FTC Talk هو منصة تهدف إلى تسليط الضوء على صناع المحتوى والخبراء في FIRST Tech Challenge، حيث يشاركون تجاربهم الملهمة في FTC لنشر المعرفة وتحفيز المزيد من الطلاب على الانضمام إلى عالم STEM.</p>
+                        <a href="#" class="project-link">
+                            عرض التفاصيل
+                            <i class="fas fa-arrow-left"></i>
+                        </a>
+                    </div>
+                </div>
+
+   
+                <div class="project-card">
+                    <div class="project-image"
+                        style="background-image: url('./images/Global.jpeg')"></div>
+                    <div class="project-info">
+                        <h3>FTC Global Ambassadors</h3>
+                       <p>هو حدث افتراضي يجمع فرق FIRST Tech Challenge من مختلف القارات، مما يعزز التعاون الدولي والتبادل الثقافي داخل مجتمع FTC. يهدف هذا الحدث إلى توحيد الفرق حول العالم، حيث تمثل كل منها قارة مختلفة، مما يخلق بيئة فريدة من التواصل والتفاعل بين المشاركين.</p>
+                        <a href="#" class="project-link">
+                            عرض التفاصيل
+                            <i class="fas fa-arrow-left"></i>
+                        </a>
+                    </div>
+                </div>
+
+           
+                <div class="project-card">
+                    <div class="project-image"
+                        style="background-image: url('./album/6.jpeg')"></div>
+                    <div class="project-info">
+                        <h3> KICK OFF 2024 </h3>
+                        <p>استضافة انطلاقة موسم FTC 2024 هي لحظة حاسمة لمجتمع FIRST Tech Challenge، حيث تجمع الفرق والمبدعين لبدء رحلة جديدة من الابتكار والتحدي. يعد هذا الحدث نقطة انطلاق أساسية تمنح الفرق فرصة لاكتشاف تفاصيل التحدي الجديد، التفاعل مع مجتمع FTC، ووضع استراتيجياتهم للموسم.</p>
+                        <a href="#" class="project-link">
+                            عرض التفاصيل
+                            <i class="fas fa-arrow-left"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="album">
+            <div class="responsive-container-block bg">
+              <div class="responsive-container-block img-cont">
+                <img class="img" src="./album/1.JPG">
+                <img class="img" src="./album/2.PNG">
+                <img class="img img-last" src="./album/3.jpeg">
+              </div>
+              <div class="responsive-container-block img-cont">
+                <img class="img" class="img img-big" src="./album/7.jpeg">
+                <img class="img" class="img img-big img-last" src="./album/8.jpg">
+               
+              </div>
+              <div class="responsive-container-block img-cont">
+                <img class="img" src="./album/6.jpeg">
+                <img class="img" src="./album/4.jpeg">
+                <img class="img" src="./album/5.jpeg">
+              </div>
+            </div>
+          </section>
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <div class="shark-fin" style="top: 50px; left: 100px;"></div>
+
+            <div class="data-bubbles" id="data-bubbles-container"></div>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>معلومات التواصل</h3>
+                    <p>نحن هنا لمساعدتك في أي استفسار أو مشروع. لا تتردد في
+                        التواصل معنا عبر أي من القنوات التالية.</p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>العنوان</h4>
+                                <p>طرابلس - ليبيا </p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>البريد الإلكتروني</h4>
+                                <a class="link"
+                                    href="mailto:cybersharksly@gmail.com">cybersharksly@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>الهاتف</h4>
+                                <a class="link" href="tel:+2180915045684">+2180915045684</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3>تواصل معنا</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">الاسم الكامل</label>
+                            <input type="text" id="name" class="form-control"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">البريد الإلكتروني</label>
+                            <input type="email" id="email" class="form-control"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">الموضوع</label>
+                            <input type="text" id="subject" class="form-control"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">الرسالة</label>
+                            <textarea id="message" class="form-control"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">إرسال
+                            الرسالة</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span >CYBER SHARKS</span>
+                </div>
+                <p class="footer-desc">فريق متخصص في التقنيات الحديثة يعمل على
+                    تطوير حلول مبتكرة تجمع بين  الابداع و التكنولوجيا.
+                    نحن نؤمن بقوة الابتكار ونسعى لتقديم أفضل الحلول
+                    .</p>
+
+                <div class="footer-links">
+                    <a class="link" href="#home">الرئيسية</a>
+                    <a class="link" href="#team">الفريق</a>
+                    <a class="link" href="#projects">المشاريع</a>
+                    <a class="link" href="#contact">تواصل معنا</a>
+                </div>
+
+                <div class="footer-social">
+                    <a class="link" href="https://www.facebook.com/p/Lybotics-cybersharks-team-100063590621500/" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a class="link" href="https://www.instagram.com/cybersharks_team/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a class="link" href="https://www.tiktok.com/@lybotics.cybersharks" target="_blank"><i class="fab fa-tiktok"></i></a>
+
+                </div>
+
+                <div class="copyright">
+                    © 2025 CyberSharks . جميع الحقوق محفوظة.
+                </div>
+            </div>
+        </footer>
+
+    
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <!-- <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script> -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+
+     <script src="./js/main.js"></script>
+    </body>
+</html>
