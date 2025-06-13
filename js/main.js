@@ -165,50 +165,6 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    // gsap.utils.toArray('.section-title, .section-subtitle').forEach(element => {
-    //     gsap.from(element, {
-    //         scrollTrigger: {
-    //             trigger: element,
-    //             start: "top 80%",
-    //             toggleActions: "play none none none"
-    //         },
-    //         y: 50,
-    //         opacity: 0,
-    //         duration: 1,
-    //         ease: "power2.out"
-    //     });
-    // });
-
-    // const underwaterLights = document.querySelectorAll('.underwater-light');
-    // underwaterLights.forEach(light => {
-    //     gsap.to(light, {
-    //         scrollTrigger: {
-    //             trigger: light.parentElement,
-    //             start: "top center",
-    //             end: "bottom top",
-    //             scrub: true
-    //         },
-    //         x: 50,
-    //         y: -50,
-    //         ease: "none"
-    //     });
-    // });
-
-    // const sharkFins = document.querySelectorAll('.shark-fin');
-    // sharkFins.forEach(fin => {
-    //     gsap.to(fin, {
-    //         scrollTrigger: {
-    //             trigger: fin.parentElement,
-    //             start: "top center",
-    //             end: "bottom top",
-    //             scrub: true
-    //         },
-    //         y: -100,
-    //         rotation: 5,
-    //         ease: "none"
-    //     });
-    // });
-
     function addFloatingRobots() {
         if (window.innerWidth > 768) {
             const heroSection = document.querySelector('.hero');
